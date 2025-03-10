@@ -5,7 +5,7 @@ import com.uax.buttons.Button;
 public abstract class Dialog {
 	public void renderWindow() {
 		Button okButton = createButton();
-		okButton.render();
+		okButton.render(this);
 	}
 
 	/**
